@@ -1,0 +1,70 @@
+
+body {
+  background-color: #222d35;
+}
+.header-pic{
+  position: relative;
+  margin-top: 15%;
+  margin-left: 10%;
+  border-radius: 50%;
+}
+.bg-pic{
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%;
+
+}
+.img-box{
+  margin-top: -85%;
+  position: relative;
+
+}
+.phuc2{
+  margin-left: 35%;
+  transform: rotate(10deg);
+}
+.phuc{
+  position: relative;
+  margin-left: 30%;
+
+}
+.chugn{
+  position:relative;
+  margin-left: 25%;
+  margin-top: -82%;
+  transform: rotate(-5deg);
+}
+#hieu-hieu{
+  position: relative;
+  margin-left: 20%;
+  margin-top: -82%;
+  transform: rotate(-10deg);
+  
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.buttons{
+  margin-top:10%;
+  margin-left: 13%;
+}
+button{
+  border: none;
+  outline: none;
+  font-size: 80px;
+  font-family: fantasy;
+  margin-left:5%;
+  background-color: aliceblue;
+}
+.btn:hover{
+  background-color: #10131f;
+  color:aliceblue;
+}
+.hieu{
+  margin-top: -100%;
+}
+.container{
+  margin-top: 10%;
+}
